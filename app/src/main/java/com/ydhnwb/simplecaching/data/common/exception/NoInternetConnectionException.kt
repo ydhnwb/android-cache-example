@@ -1,4 +1,4 @@
-package com.ydhnwb.simplecaching.data.exception
+package com.ydhnwb.simplecaching.data.common.exception
 
 import okio.IOException
 

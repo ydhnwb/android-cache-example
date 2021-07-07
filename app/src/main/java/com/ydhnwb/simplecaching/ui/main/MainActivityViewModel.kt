@@ -2,7 +2,6 @@ package com.ydhnwb.simplecaching.ui.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ydhnwb.simplecaching.data.exception.NoInternetConnectionException
 import com.ydhnwb.simplecaching.domain.common.base.BaseResult
 import com.ydhnwb.simplecaching.domain.todo.entity.TodoEntity
 import com.ydhnwb.simplecaching.domain.todo.usecase.FetchTodosUseCase

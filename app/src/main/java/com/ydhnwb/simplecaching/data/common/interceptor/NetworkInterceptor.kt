@@ -4,7 +4,7 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
-import com.ydhnwb.simplecaching.data.exception.NoInternetConnectionException
+import com.ydhnwb.simplecaching.data.common.exception.NoInternetConnectionException
 import okhttp3.Interceptor
 import okhttp3.Response
 

@@ -1,13 +1,11 @@
 package com.ydhnwb.simplecaching.data.todo.remote
 
-import com.ydhnwb.simplecaching.data.exception.NoInternetConnectionException
+import com.ydhnwb.simplecaching.data.common.exception.NoInternetConnectionException
 import com.ydhnwb.simplecaching.data.todo.remote.api.TodoApi
 import com.ydhnwb.simplecaching.domain.common.base.BaseResult
 import com.ydhnwb.simplecaching.domain.common.base.Failure
 import com.ydhnwb.simplecaching.domain.todo.entity.TodoEntity
-import okio.IOException
 import java.lang.Exception
-import java.net.UnknownHostException
 
 class TodoRemoteSource constructor(private val todoApi: TodoApi) {
     suspend fun fetchTodos() : BaseResult<List<TodoEntity>, Failure>{

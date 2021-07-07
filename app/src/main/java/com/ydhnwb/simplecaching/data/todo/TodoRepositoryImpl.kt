@@ -34,6 +34,7 @@ class TodoRepositoryImpl constructor(
 
 
     private fun saveToLocal(todos: List<TodoEntity>){
+        todoDao.deleteAll()
         todoDao.insertAll(todos)
     }
 }
